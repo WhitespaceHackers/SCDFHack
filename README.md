@@ -25,12 +25,12 @@ d) Detailed solution
 
 IoT Hardware
 
-![assets/rpi.jpg]()
+![RPi](assets/rpi.jpg)
 In this proof of concept, we use a RaspberryPi 4 and its included 8MP camera as our image acquisition IoT device.
 
 Image capturing, pose estimation and fall detection
 
-![assets/pose.jpg]()
+![Pose Estimate](assets/pose.jpg)
 
 Images were acquired at 5s intervals using the 8MP camera on the RaspberryPi. Pose estimates were then inferred using Posenet ([https://github.com/tensorflow/tfjs-models/tree/master/posenet](https://github.com/tensorflow/tfjs-models/tree/master/posenet)) with ResNet 50 as the embedding network. The pose estimates contain ONLY 17 key points such as the location (within the image) of the eyes, nose, elbows, feet, waist, etc as an array of points. Fall detection is also carried out on the RasperryPi using a simple algorithm that detects the individual&#39;s position relative to the ground. No images are transmitted to the server to preserve the privacy of the individual.
 
