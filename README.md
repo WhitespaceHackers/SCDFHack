@@ -1,17 +1,17 @@
 # SCDFHack
 
-Team name: Whitespace
+**Team name:** Whitespace
 
-Team description; We are a team of students from NUS who are passionate about building applications and data science. This led us to join this hackathon together.
+**Team description:** We are a team of students from NUS who are passionate about building applications and data science. This led us to join this hackathon together.
 
-Team members:
+**Team members:**
 
 - Chan Dalis
 - James Lee
 - Jonathan Jie
 - Marcus Lee
 
-a) **FallSafe** tackles the safety issue of elderly living at home by using IOT and Computer Vision to monitor accidents behind closed doors, such as falls and cardiac arrests.
+a) **CareFall** tackles the safety issue of elderly living at home by using IOT and Computer Vision to monitor accidents behind closed doors, such as falls and cardiac arrests.
 
 b) https://youtu.be/cWVEBfaFeDI
 
